@@ -7,7 +7,7 @@ import com.nagarajavel.aiinterviewassistant.dto.InterviewRequest;
 import com.nagarajavel.aiinterviewassistant.dto.InterviewResponse;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "*")
     @RestController
     public class InterviewController {
         private final GeminiService geminiService;
